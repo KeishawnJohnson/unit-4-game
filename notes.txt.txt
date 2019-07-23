@@ -1,0 +1,23 @@
+Overall game logic
+setup function:
+log total wins
+log total losses
+create and log a number between 1-100 for goal
+give each image a value number between 1-10 for each image
+
+gameplay function:
+add image number to player total
+check if number is greater than goal
+    if so
+    add 1 to losses
+    restart game by calling on first function
+    if not 
+    check if number equals goal
+        if so
+        alert you win
+        add 1 to player wins
+        call on setup function
+    if not
+    do nothing
+
+
